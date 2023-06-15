@@ -167,6 +167,8 @@ descriptionContainer.append(unfundedGamesElement);
 
 const firstGameContainer = document.getElementById("first-game");
 const secondGameContainer = document.getElementById("second-game");
+const firstUnfundedGameContainer = document.getElementById("first-unfunded-game");
+const secondUnfundedGameContainer = document.getElementById("second-unfunded-game");
 
 const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
     return item2.pledged - item1.pledged;
@@ -174,6 +176,10 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 
 // use destructuring and the spread operator to grab the first and second games
 let [firstGame, secondGame, ...otherGames] = sortedGames;
+
+// my own code to display the top unfnded games
+let [secondUnfundedGame, topUnfundedGame] = sortedGames.slice(-2);
+
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
 const firstGameName = document.createElement("h2");
@@ -184,3 +190,13 @@ firstGameContainer.append(firstGameName);
 const secondGameName = document.createElement("h2");
 secondGameName.innerHTML = secondGame.name;
 secondGameContainer.append(secondGameName);
+
+// new element to hold the name of the game that needs the most funding, and append to correct element
+const firstUnfundedGameName = document.createElement("h2");
+firstUnfundedGameName.innerHTML = topUnfundedGame.name;
+firstUnfundedGameContainer.append(firstUnfundedGameName);
+
+// same for runner up
+const secondUnfundedGameName = document.createElement("h2");
+secondUnfundedGameName.innerHTML = secondUnfundedGame.name;
+secondUnfundedGameContainer.append(secondUnfundedGameName);
