@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![](https://github.com/web102_prework/ZA_Web102Prework.gif)
+![](https://github.com/Zakaria-Arshad/web102_prework/ZA_Web102Prework.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
