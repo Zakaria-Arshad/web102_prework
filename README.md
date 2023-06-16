@@ -34,7 +34,7 @@ GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app: The main challenge I had was learning the new Javascript functions such as reduce, and using them in context. However, it helped me understand how they work and I feel more comfortable with them.
 
 ## License
 
