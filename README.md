@@ -23,8 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/Z53gDpd"  ><a href="//imgur.com/a/Z53gDpd">ZakariaArshad - Web102Prework</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://github.com/web102_prework/ZA_Web102Prework.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif  
